@@ -3,8 +3,8 @@ let bancoNoticias = [
     {
         titulo: "Vacina contra covid altera DNA humano",
         tipo: "fake",
-        fonte: "Agência Lupa",
-        url: "https://lupa.uol.com.br"
+        fonte: "GOV.BR",
+        url: "https://www.gov.br/saude/pt-br/assuntos/saude-com-ciencia/noticias/2025/julho/dna-humano-nao-e-alterado-pela-vacina-contra-covid-19"
     },
 
     {
