@@ -33,10 +33,12 @@ let bancoNoticias = [
 
 function verificarNoticia() {
 
-    let texto = document.getElementById("noticia").value;
+    let texto = document.getElementById("noticia").value; 
+    //“Essa linha pega o texto que o usuário digitou no campo com id ‘noticia’ e guarda na variável texto.”
 
     // 🔹 validação melhorada (remove espaços)
     if (!texto.trim()) {
+        //“Esse if verifica se o campo está vazio. Se o usuário não digitou nada (ou só espaços), aparece um alerta pedindo para digitar algo e a função é interrompida.”
         alert("Por favor, digite algo no campo...");
         return;
     }
